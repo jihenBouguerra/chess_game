@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Jeu_Echec.CMenuAdmin" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgAhAAAAAAiAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>controller\CMenuAdmin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.CMenuJoueur" Collapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>controller\CMenuJoueur.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.CSignIn" Collapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAAAAA=</HashCode>
+      <FileName>controller\CSignIn.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.CSignup" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAQ=</HashCode>
+      <FileName>controller\CSignup.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.Admin">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>model\Admin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.Auth" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAEAAAAAAAAgAAAQAAAAAAAAEAAAAAAAQgAAAAA=</HashCode>
+      <FileName>model\Auth.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.ConnexionBD" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAQAEAABAEAAAAAQABAAAAAAgAAAAAA=</HashCode>
+      <FileName>model\ConnexionBD.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.Historique" Collapsed="true">
+    <Position X="20" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABQQAAYBAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>model\Historique.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.IA" Collapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>model\IA.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.Jeu" Collapsed="true">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgAgAEAAAAgRACQAEACUAAAQEAAAAAAgCAEAgAAEEA=</HashCode>
+      <FileName>model\Jeu.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.Joueur">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>model\Joueur.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.Personne" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAAgAAAAAEgAAQNAAAAAAAMQgAABAAQEBAAAA=</HashCode>
+      <FileName>model\Personne.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.Piece" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKACACgAAAAAACaAAAAAIAAAQAABAAAAAAAAAAABABA=</HashCode>
+      <FileName>model\Piece.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Jeu_Echec.Piece_Chevalier" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>model\Piece_Chevalier.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.Piece_Dame" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>model\Piece_Dame.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.Piece_Fou" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>model\Piece_Fou.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.Piece_Pion" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>model\Piece_Pion.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.Piece_Roi" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>model\Piece_Roi.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.Piece_Tour" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>model\Piece_Tour.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.GestionCompte" Collapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAADgCAAAAcAAAAAAAAAAICAA=</HashCode>
+      <FileName>view\GestionCompte.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.GestionHistorique" Collapsed="true">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAECAAAAAAAACEEAgCAAgAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>view\GestionHistorique.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.Jouer" Collapsed="true">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AESy3xcAECAAfIMAAASAvt/jPgAE4G8QAAAggGAfAAA=</HashCode>
+      <FileName>view\Jouer.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.MenuAdmin" Collapsed="true">
+    <Position X="18.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAACAJAAAABACgAABCFAAAAAAAAAAAAAEAASA=</HashCode>
+      <FileName>view\MenuAdmin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.MenuJoueur" Collapsed="true">
+    <Position X="20" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAABAAACAIAAAAABSAAAACAAAAAAgAAAQgAIEAAAA=</HashCode>
+      <FileName>view\MenuJoueur.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.modifierMdp" Collapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgECAAAAAAAACAABgCAAAQYAAAACAAAAAAAAA=</HashCode>
+      <FileName>view\ModifierMdp.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.ParametresCompte" Collapsed="true">
+    <Position X="18.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAQAAgECAAAAAAAACAABgCAAAQYAAAAAQAAAAAAAA=</HashCode>
+      <FileName>view\ParametresCompte.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.SignIn" Collapsed="true">
+    <Position X="20" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAAAgECAAAAAAAACAAAgCAAAQQAAAAAQAAAAAAAA=</HashCode>
+      <FileName>view\SignIn.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.SignUp" Collapsed="true">
+    <Position X="21.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAAAgECAAAAAAIECgABgCAAAQQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>view\SignUp.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.VotreHistoriques">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAECAgAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>view\VotreHistoriques.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.My.MyApplication">
+    <Position X="14.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jeu_Echec.My.MySettings">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAABEAAAAABAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="Jeu_Echec.My.MySettingsProperty" Collapsed="true">
+    <Position X="14.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Jeu_Echec.My.Resources.Resources" Collapsed="true">
+    <Position X="16.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{21240938-9140-46E8-B3BF-2CA83FD56B3F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Jeu_Echec.My.MyApplication</StartupObject>
+    <RootNamespace>Jeu_Echec</RootNamespace>
+    <AssemblyName>Jeu_Echec</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Jeu_Echec.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Jeu_Echec.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="controller\CMenuAdmin.vb" />
+    <Compile Include="controller\CMenuJoueur.vb" />
+    <Compile Include="controller\CSignIn.vb" />
+    <Compile Include="controller\CSignup.vb" />
+    <Compile Include="model\Admin.vb" />
+    <Compile Include="model\Auth.vb" />
+    <Compile Include="model\IA.vb" />
+    <Compile Include="model\Jeu.vb" />
+    <Compile Include="model\Joueur.vb" />
+    <Compile Include="model\ConnexionBD.vb" />
+    <Compile Include="model\Piece.vb" />
+    <Compile Include="model\Piece_Chevalier.vb" />
+    <Compile Include="model\Piece_Dame.vb" />
+    <Compile Include="model\Piece_Fou.vb" />
+    <Compile Include="model\Piece_Pion.vb" />
+    <Compile Include="model\Piece_Roi.vb" />
+    <Compile Include="model\Piece_Tour.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="model\Historique.vb" />
+    <Compile Include="model\Personne.vb" />
+    <Compile Include="TESSSSTT.vb" />
+    <Compile Include="view\GestionHistorique.Designer.vb">
+      <DependentUpon>GestionHistorique.vb</DependentUpon>
+    </Compile>
+    <Compile Include="view\GestionHistorique.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\MenuAdmin.Designer.vb">
+      <DependentUpon>MenuAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="view\MenuAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Jouer.Designer.vb">
+      <DependentUpon>Jouer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="view\Jouer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\MenuJoueur.Designer.vb">
+      <DependentUpon>MenuJoueur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="view\MenuJoueur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\ModifierMdp.Designer.vb">
+      <DependentUpon>ModifierMdp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="view\ModifierMdp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\ParametresCompte.Designer.vb">
+      <DependentUpon>ParametresCompte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="view\ParametresCompte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\SignIn.Designer.vb">
+      <DependentUpon>SignIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="view\SignIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\SignUp.Designer.vb">
+      <DependentUpon>SignUp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="view\SignUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\GestionCompte.Designer.vb">
+      <DependentUpon>GestionCompte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="view\GestionCompte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\VotreHistoriques.Designer.vb">
+      <DependentUpon>VotreHistoriques.vb</DependentUpon>
+    </Compile>
+    <Compile Include="view\VotreHistoriques.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\GestionHistorique.resx">
+      <DependentUpon>GestionHistorique.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\MenuAdmin.resx">
+      <DependentUpon>MenuAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Jouer.resx">
+      <DependentUpon>Jouer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\MenuJoueur.resx">
+      <DependentUpon>MenuJoueur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\ModifierMdp.resx">
+      <DependentUpon>ModifierMdp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\ParametresCompte.resx">
+      <DependentUpon>ParametresCompte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\SignIn.resx">
+      <DependentUpon>SignIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\SignUp.resx">
+      <DependentUpon>SignUp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\GestionCompte.resx">
+      <DependentUpon>GestionCompte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\VotreHistoriques.resx">
+      <DependentUpon>VotreHistoriques.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
