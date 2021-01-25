@@ -1,5 +1,5 @@
 # chess_game
-.net chess game
+vb.net desktop chess game
 # Sign up
 ![dsq](https://user-images.githubusercontent.com/22852604/42512542-ca89ad70-844c-11e8-8dfa-8c6ef612878d.png)
 # Managing the game history 
